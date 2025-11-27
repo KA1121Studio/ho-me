@@ -11,7 +11,7 @@
 
 ## 目次
 
-- プロジェクト構成
+
 - 必要条件
 - 速攻セットアップ（ローカルで動かす手順）
 - `js/config.js` に API キーを入れる方法（推奨設定・例）
@@ -25,21 +25,6 @@
 - 貢献方法・ライセンス
 - FAQ
 
----
-
-## プロジェクト構成
-
-project/
-├─ index.html       # パスワード画面とメインコンテンツ
-├─ css/
-│  └─ style.css     # すべてのスタイル
-├─ js/
-│  ├─ config.js     # APIキーだけ（ローカルで作成、.gitignore推奨）
-│  ├─ main.js       # ルーティング、UI、API呼び出しロジック
-│  └─ password.js   # パスワード画面処理
-├─ assets/          # 任意の画像やアイコン
-├─ .gitignore
-└─ README.md
 
 ---
 
