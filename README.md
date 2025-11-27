@@ -29,18 +29,18 @@
 
 ## プロジェクト構成（最終）
 
-project/
-  ├─ index.html            # パスワード画面 + メインコンテンツ
-  ├─ css/
-  │    └─ style.css        # すべてのスタイル
-  ├─ js/
-  │    ├─ config.js        # APIキーのみ（ローカル作成、gitignore推奨）
-  │    ├─ main.js          # ルーティング、UI、API処理
-  │    └─ password.js      # パスワード画面の処理
-  ├─ assets/
-  │    └─ ...              # 画像・アイコン（ロゴは外部URL）
-  ├─ .gitignore
-  └─ README.md
+project:
+  index.html: "パスワード画面とメインコンテンツ"
+  css:
+    style.css: "すべてのスタイル"
+  js:
+    config.js: "APIキーのみ（ローカル作成、gitignore推奨）"
+    main.js: "ルーティング・UI・API処理"
+    password.js: "パスワード画面処理"
+  assets:
+    placeholder: "画像やアイコン（任意）"
+  .gitignore: ""
+  README.md: ""
 
 
 ---
