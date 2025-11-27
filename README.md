@@ -27,22 +27,19 @@
 
 ---
 
-## プロジェクト構成（最終）
+## プロジェクト構成
 
-project:
-  index.html: # パスワード画面とメインコンテンツ
-  css:
-    style.css: # すべてのスタイル
-  js:
-    config.js: # APIキーだけ（ローカルで作成、.gitignore推奨）
-    main.js: # ルーティング、UI、API呼び出しロジック
-    password.js: # パスワード画面処理
-  assets: # 任意の画像やアイコン
-  .gitignore:
-  README.md:
-
-yaml
-コードをコピーする
+project/
+├─ index.html       # パスワード画面とメインコンテンツ
+├─ css/
+│  └─ style.css     # すべてのスタイル
+├─ js/
+│  ├─ config.js     # APIキーだけ（ローカルで作成、.gitignore推奨）
+│  ├─ main.js       # ルーティング、UI、API呼び出しロジック
+│  └─ password.js   # パスワード画面処理
+├─ assets/          # 任意の画像やアイコン
+├─ .gitignore
+└─ README.md
 
 ---
 
