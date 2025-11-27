@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>ホーム</title>
+<link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/1/19/Google_Classroom_Logo.svg">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- パスワード画面 -->
+  <div id="passwordScreen" style="display:flex;flex-direction:column;align-items:center;justify-content:center;height:100vh;">
+    <h2>映像資料を利用するには、利用コードを入力してください</h2>
+
+    <input type="password" id="passwordInput" placeholder="利用コード" style="padding:8px 12px;font-size:16px">
+    <button id="passwordBtn" style="margin-top:12px;padding:8px 16px;font-size:16px;cursor:pointer;">送信</button>
+    <div id="passwordMsg" style="color:#c00;margin-top:8px;"></div>
+  </div>
+
+  <!-- 元のコンテンツ -->
+  <div id="mainContent" style="display:none;">
+    <header>
+      <div class="logo" id="homeBtn" title="Home">
+        <div class="icon">Y</div>
+        <div style="font-weight:700">YouTube</div>
+      </div>
+      <div class="search">
+        <input id="searchInput" placeholder="検索" autocomplete="off" />
+      </div>
+      <div class="actions">
+        <div title="アカウント" style="width:36px;height:36px;border-radius:50%;background:#eee"></div>
+      </div>
+    </header>
+    <main>
+      <div class="content" id="app"></div>
+    </main>
+  </div>
+
+  <!-- モジュールスクリプト -->
+  <script type="module" src="js/password.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
