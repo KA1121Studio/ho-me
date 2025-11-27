@@ -1,5 +1,5 @@
-// js/password.js
-// パスワード画面処理（元のまま）
+
+// パスワード画面処理
 const correctPassword = "manabinotobira"; // 任意に変更
 const input = document.getElementById('passwordInput');
 const btn = document.getElementById('passwordBtn');
